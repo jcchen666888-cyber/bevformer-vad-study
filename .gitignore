@@ -1,0 +1,29 @@
+# Downloaded source trees and large artifacts
+_deps/
+artifacts/
+data/
+work_dirs/
+
+# Generated demo / inference outputs (selected small results may be force-added)
+demo/outputs/*
+!demo/outputs/.gitkeep
+!demo/outputs/minimal_bevformer_vad.png
+!demo/outputs/minimal_bevformer_vad.gif
+outputs/*
+!outputs/.gitkeep
+!outputs/vad_tiny_mini/
+outputs/vad_tiny_mini/*
+!outputs/vad_tiny_mini/frame_000.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+tmp/
